@@ -1,0 +1,25 @@
+@charset "UTF-8";
+@import "variables";
+
+@import "pages/contact";
+
+.creative-gradient {
+  background: #c03c7f;
+  background-image: -moz-linear-gradient(-45deg, #c03c7f 0%, #983380 37%, #502781 100%);
+  background-image: -webkit-linear-gradient(-45deg, #c03c7f 0%, #983380 37%, #502781 100%);
+  background-image: linear-gradient(135deg, #c03c7f 0%, #983380 37%, #502781 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#c03c7f', endColorstr='#502781', GradientType=1);
+}
+
+.bg-creative-color1{
+  background-color: $creative-color1;
+}
+
+.bg-creative-color2{
+  background-color: $creative-color2;
+}
+
+.bg-creative-color21{
+  background-color: $creative-color21;
+}
+
