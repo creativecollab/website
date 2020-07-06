@@ -2,7 +2,7 @@
 
 @section('content')
   @include('web.components.slider')
-  <section>
+  <section style="background-color: #FFF;">
     <div class="w-100 pt-120 pb-120 position-relative mt-30">
       <div id="particles1" class="particles-js top-left" data-color="#ffe27a" data-saturation="300" data-size="40"
            data-count="8" data-speed="2" data-hide="770" data-image="{{ url(asset('web/assets')) }}"></div>
@@ -10,9 +10,10 @@
         <div class="sec-title2 mb-70 text-center w-100">
           <div class="d-inline-block">
             <h2 class="mb-0  text-color2">
-              <span>Sobre</span>A Creative Collab</h2>
-            <p class="mb-0">Lorem ipsum dolor sit amet, consectetur <br> adipiscing elit, sed do eiusmod
-              tempor</p>
+              A Creative Collab</h2>
+            <p class="mb-0">
+              Uma agência focada em trazer valor real para o seu negócio
+            </p>
           </div>
         </div><!-- Section Title Style 2 -->
         <div class="about-wrap w-100">
@@ -22,10 +23,12 @@
             </div>
             <div class="col-md-6 col-sm-12 col-lg-6">
               <div class="about-desc w-100">
-                <h2 class="mb-0">What we do?</h2>
-                <p class="mb-0">Praesent fermentum elit sed libero egestas ullamcorper. Mauris pharetra
-                  nulla id augue auctor placerat. Proin tortor leo, convallis a mi a, feugiat aliquam
-                  dui. Vestibulum cursus auctor nisl non vulputate.</p>
+                <h2 class="mb-0"> O Que Somos ?</h2>
+                <p class="mb-0">
+                  Uma agência especializada em criação, implementação e monitoramento de sistema online.
+                  Com a nossa equipe multidisciplinar garantimos que você terá amparo em todas as
+                  áreas relacionado ao novo canal para posicionar sua marca de maneira correta.
+                </p>
                 <div class="btns ">
                   <a class=" icon-btn theme-btn icon-right fill-btn"
                      href="{{ route('web.about') }}"
@@ -43,7 +46,7 @@
       </div>
     </div>
   </section>
-  <section>
+  <section style="background-color: #000;">
     <div class="w-100  position-relative service-wrap pt-30">
 
       <div class="container">
@@ -105,7 +108,7 @@
                 <p class="mb-0">Start working with an company that provide everything you need to any
                   create awareness drive</p>
                 <a class="service-btn"
-                   href="{{ route('web.services.seo')}}"
+                   href="{{ route('web.services.sites')}}"
                    title="">SAIBA +</a>
               </div>
             </div>
@@ -115,7 +118,7 @@
                   <span class="icon">
                     <i class="svg">
                     </i>
-                </span>
+                  </span>
 
               <div class="service-info">
                 <i class="font-style-normal">04</i>

@@ -15,6 +15,7 @@ const web = 'public/web/assets/';
 
 mix
   .sass(dev + 'scss/app.scss', web + 'css/app.css')
+  .sass(dev + 'scss/libs/style.scss', web + 'css/style.css')
   // .styles([
   //   dev + 'css/flaticon.css',
   //   dev + 'css/animate.min.css',
@@ -49,7 +50,7 @@ mix
   //   dev +  'js/particle-int.js',
   // ], web + 'js/plugins.js')
   //
-  // .scripts([dev +  'js/custom-scripts.js'], web + 'js/app.js')
+  .scripts([dev +  'js/custom-scripts.js'], web + 'js/app.js')
 
 
 

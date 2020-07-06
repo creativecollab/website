@@ -70,6 +70,7 @@
                         <li><a href="{{ route('web.services.sites') }}" title="">Sites</a></li>
                         <li><a href="#" title="">Lojas Virtuais</a></li>
                         <li><a href="#" title="">Blogs</a></li>
+                        <li><a href="#" title="">Sistemas Web</a></li>
                       </ul>
                     </div>
                     <div class="col-md-4 col-sm-6 col-lg-4">
@@ -81,11 +82,10 @@
                       </ul>
                     </div>
                     <div class="col-md-4 col-sm-6 col-lg-4">
-                      <h4>Markenting Digital</h4>
+                      <h4>Markenting</h4>
                       <ul class="mb-0 list-unstyled">
-                        <li><a href="#" title="">Servico 1</a></li>
-                        <li><a href="#" title="">Servico 2</a></li>
-                        <li><a href="#" title="">Servico 3</a></li>
+                        <li><a href="#" title="">Consulturia</a></li>
+                        <li><a href="#" title="">Planejamento Extratégico</a></li>
                       </ul>
                     </div>
                   </div>
@@ -134,11 +134,12 @@
         <a href="{{ route('web.services') }}" title="">Soluções</a>
         <ul class="children mb-0 list-unstyled">
           <li class="menu-item-has-children">
-            <a href="{{ route('web.services.development')  }}" title="">Desenvolvimento</a>
+            <a href="javascript:void(0);" title="">Desenvolvimento</a>
             <ul class="children mb-0 list-unstyled">
               <li><a href="{{ route('web.services.sites') }}" title="">Sites</a></li>
-              <li><a href="#" title="">Blogs</a></li>
-              <li><a href="#" title="">Loja Virtuais</a></li>
+              <li><a href="{{ route('web.services.blogs') }}" title="">Blogs</a></li>
+              <li><a href="{{ route('web.services.ecommerce') }}" title="">Loja Virtuais</a></li>
+              <li><a href="{{ route('web.services.web') }}" title="">Sistemas Web</a></li>
             </ul>
           </li>
           <li class="menu-item-has-children">
@@ -150,7 +151,7 @@
             </ul>
           </li>
           <li class="menu-item-has-children">
-            <a href="javascript:void(0);" title="">Marketing Digital</a>
+            <a href="javascript:void(0);" title="">Marketing</a>
             <ul class="children mb-0 list-unstyled">
               <li><a href="#" title="">Servico 1</a></li>
               <li><a href="#" title="">Servico 2</a></li>
@@ -169,52 +170,41 @@
 </main>
 
 <footer>
-  <div class="w-100 pt-70 bg-creative-roxo text-color15 position-relative">
-    <div class="scroll-top-btn position-absolute">
-      <a href="javascript:void(0);" title="">
-        <i class="metaicon-arrow-pointing-to-up"></i>
-      </a>
-    </div>
+  <div class="w-100 pt-70  text-color15 position-relative">
+    <div class="scroll-top-btn position-absolute"><a href="javascript:void(0);" title=""><i class="metaicon-arrow-pointing-to-up"></i></a></div>
     <div class="container">
       <div class="footer-wrap d-flex flex-wrap w-100">
         <div class="footer-about">
           <div class="logo d-block">
-            <a href="{{ route('web.home') }}" title="Home">
-              <img class="img-fluid"
-                   src="{{ url(asset('web/assets/images/brand-footer.png')) }}"
-                   alt="Footer Logo">
-            </a>
+            <a href="index.html" title="Home"><img class="img-fluid" src="assets/images/footer-logo.png" alt="Footer Logo"></a>
           </div><!-- Logo -->
           <p class="mb-0">We’re on a mission to build a better future where technology creates good jobs for everyone.</p>
         </div><!-- Footer About -->
         <div class="footer-widget-wrap">
           <div class="row">
-            <div class="col-md-6 col-sm-12 col-lg-4">
+            <div class="col-md-6 col-sm-6 col-lg-3">
               <div class="widget w-100">
-                <h4 class="text-white">Sobre</h4>
-
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  e ut, ullam aperiam sit, sint, nam maxime.
-                  Natus obcaecati quam cumque officiis!</p>
-
-                <a href="javascript:void(0);" title="">Termos de Uso</a>
-
-              </div>
-            </div>
-            <div class="col-md-4 col-sm-12 col-lg-4">
-              <div class="widget w-100">
-                <h4 class="text-white"> + Mais</h4>
+                <h4 class="text-white">Contact</h4>
                 <ul class="mb-0 list-unstyled">
-                  <li><a href="about.html" title="">Home</a></li>
-                  <li><a href="services.html" title="">A Agência</a></li>
-                  <li><a href="javascript:void(0);" title="">Soluções</a></li>
-                  <li><a href="javascript:void(0);" title="">Contato</a></li>
+                  <li><a href="javascript:void(0);" title="">Installation</a></li>
+                  <li><a href="javascript:void(0);" title="">Loging in</a></li>
                 </ul>
               </div>
             </div>
-            <div class="col-md-4 col-sm-12 col-lg-4">
+            <div class="col-md-6 col-sm-6 col-lg-3">
               <div class="widget w-100">
-                <h4 class="text-white"></h4>
+                <h4 class="text-white">Links</h4>
+                <ul class="mb-0 list-unstyled">
+                  <li><a href="about.html" title="">About us</a></li>
+                  <li><a href="services.html" title="">Services</a></li>
+                  <li><a href="javascript:void(0);" title="">Projects</a></li>
+                  <li><a href="javascript:void(0);" title="">Our Team</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-6 col-sm-6 col-lg-3">
+              <div class="widget w-100">
+                <h4 class="text-white">Links</h4>
                 <ul class="mb-0 list-unstyled">
                   <li><a href="contact.html" title="">Contact us</a></li>
                   <li><a href="blog-2column.html" title="">Blog</a></li>
@@ -223,36 +213,48 @@
                 </ul>
               </div>
             </div>
+            <div class="col-md-6 col-sm-6 col-lg-3">
+              <!--Newslatter Form-->
+              <div class="widget w-100" id="email-form">
+                <h4 class="text-white">Subscribe</h4>
+                <form class="position-relative w-100" method="post" action="#" id="subscribe-form">
+                  <div class="form-group"><div class="response"></div></div>
 
+                  <input type="email" name="email" class="email" value="" placeholder="Your Email">
+                  <button type="button" id="subscribe-newslatters"><i class="metaicon-send-button"></i></button>
+                </form>
+              </div>
+            </div>
           </div>
         </div>
       </div><!-- Footer Wrap -->
-      <div class="footer-content-wrap align-items-center d-flex justify-content-center flex-wrap w-100">
+      <div class="footer-content-wrap align-items-center d-flex justify-content-between flex-wrap w-100">
         <div class="footer-content-inner">
           <ul class="mb-0 d-flex list-unstyled">
+            <li class="text-white"><a href="8006000020" title="">
+                <i class="fas fa-phone-alt text-color15"></i>800 - 600 - 0020</a></li>
             <li class="text-white">
-              <a href="8006000020" title="">
-                <i class="fas fa-phone-alt text-color15"></i>061996053962</a></li>
-            <li class="text-white">
-              <i class="far fa-map text-color15"></i>
-              Brasília, BSB</li>
+              <i class="far fa-map text-color15"></i>Brasília, BSB</li>
           </ul>
         </div>
+        <div class="scl-links2">
 
+          <a href="javascript:void(0);"
+             title="Instagram" target="_blank">
+            <i class="fab fa-instagram"></i>
+          </a>
+
+          <a href="javascript:void(0);" title="Facebook"
+             target="_blank">
+            <i class="fab fa-facebook"></i>
+          </a>
+        </div>
       </div><!-- Footer Content Wrap -->
-
-      <div class="scl-links2 d-flex justify-content-center">
-      <a  href="javascript:void(0);" title="Instagram" target="_blank"><i class="fab fa-instagram"></i></a>
-      <a href="javascript:void(0);" title="Twitter" target="_blank"><i class="fab fa-twitter"></i></a>
-      <a href="javascript:void(0);" title="Youtube" target="_blank"><i class="fab fa-facebook"></i>
-      </a>
+      <div class="copyright w-100">
+        <p class="mb-0">Copyright &copy; 2020. All Right Reserved.</p>
+      </div><!-- Copyright -->
     </div>
-
-    <div class="copyright w-100 text-center">
-      <p class="mb-0">Copyright &copy; 2020. <a href="">Agência Creative Collab</a> Todos os Direitos Reservados</p>
-    </div><!-- Copyright -->
   </div>
-
 </footer>
 <!-- Main Wrapper -->
 
@@ -289,9 +291,10 @@
     <script src="{{ url(asset('web/assets/js/revolution/extensions/revolution.extension.slideanims.min.js'))}}"></script>
     <script src="{{ url(asset('web/assets/js/revolution/extensions/revolution.extension.video.min.js'))}}"></script>
 
-<script src="{{ url(asset('web/assets/js/revolution/revolution-init.js'))}}"></script>
+{{--<script src="{{ url(asset('web/assets/js/revolution/revolution-init.js'))}}"></script>--}}
 
 {{--<script src="{{ url(asset('web/assets/js/plugins/rs-plugins.js')) }}"></script>--}}
-{{--<script src="{{ url(asset('web/assets/js/plugins/rs-init.js')) }}"></script>--}}
+<script src="{{ url(asset('web/assets/js/plugins/rs-init.js')) }}"></script>
+{{--<script src="{{ url(asset('web/assets/js/custom-scripts.js')) }}"></script>--}}
 </body>
 </html>

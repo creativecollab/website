@@ -2,7 +2,7 @@
 @section('content')
   <section>
     <div class="w-100 pt-60 position-relative">
-      <div class="fixed-bg bg-creative-color1" style="background-image: url(assets/images/bg10.jpg); height: 80vh;"></div>
+      <div class="fixed-bg" style="background-image: url(assets/images/bg10.jpg); height: 80vh;"></div>
       <div class="container">
         <div class="page-title-wrap text-center w-100 d-inline-block">
           <div class="page-title-inner d-inline-block">
@@ -25,11 +25,11 @@
     <div class="w-100 pt-40 pb-100 position-relative">
       <div id="particles1" class="particles-js top-left" data-color="#ffe27a" data-saturation="300" data-size="40"
            data-count="8" data-speed="2" data-hide="770" data-image="assets"></div>
-      <div class="container">
+      <div class="container"  >
         <div class="about-wrap6 w-100">
           <div class="row align-items-center">
             <div class="col-md-12 col-sm-12 col-lg-7 order-lg-1">
-              <img class="img-fluid mt-40" src="{{ url(asset('web/assets/images/resources/about-mckp5.jpg')) }}" alt="About Mockup 5">
+              <img class="img-fluid mt-40" src="{{ url(asset('web/assets/images/homeslider/criacao-sitea-08.png')) }}" alt="About Mockup 5">
             </div>
             <div class="col-md-12 col-sm-12 col-lg-5">
               <div class="about-desc6 w-100 mt-40">
@@ -54,7 +54,7 @@
 
 
 
-    <section>
+    <section style="background-color: #FFF;">
       <div class="w-100 py-100 position-relative">
         <div id="particles2" class="particles-js top-left" data-color="#ffe27a" data-saturation="300" data-size="40"
              data-count="8" data-speed="2" data-hide="770" data-image="assets"></div>
@@ -98,7 +98,8 @@
         </div>
       </div>
     </section>
-    <section>
+    <section style="background-color: #FFF;" >
+
   <section>
     <div class="w-100 pt-90 pb-120 position-relative">
       <div id="particles2" class="particles-js top-left" data-color="#ffe27a" data-saturation="300" data-size="40"
