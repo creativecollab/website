@@ -1,4 +1,14 @@
 <section class="homeslider">
+
+  <div class="bg-waves">
+    <div class="wave wave-bottom-left">
+       <img class="layer" style="margin-bottom: 50px" src="{{ url(asset('web/assets/images/homeslider/bolinhas-inferior-esquerdo.png')) }}" alt="bottom-right1">
+    </div>
+    <div class="wave wave-bottom-right">
+      <img class="layer"  style="margin-bottom: 20px" src="{{ url(asset('web/assets/images/homeslider/bolinhas-inferior-direitos.png')) }}" alt="bottom-right2">
+
+    </div>
+  </div>
   <div class="w-100">
     <div id="rev_slider_4_1_wrapper"
          class="rev_slider_wrapper fullscreen-container"

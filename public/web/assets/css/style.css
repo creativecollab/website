@@ -1767,6 +1767,13 @@ nav ul ul,
   right: 0;
 }
 
+.bg-waves .wave.wave-bottom-right img.layer2 {
+  top: auto;
+  bottom: 0;
+  left: 0;
+  right: auto;
+}
+
 .bg-waves .wave img.layer {
   position: absolute;
   -webkit-animation: waves 5s infinite ease-in-out;

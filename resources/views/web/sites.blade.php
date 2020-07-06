@@ -29,7 +29,8 @@
         <div class="about-wrap6 w-100">
           <div class="row align-items-center">
             <div class="col-md-12 col-sm-12 col-lg-7 order-lg-1">
-              <img class="img-fluid mt-40" src="{{ url(asset('web/assets/images/homeslider/criacao-sitea-08.png')) }}" alt="About Mockup 5">
+              <img class="img-fluid mt-40"
+                   src="{{ url(asset('web/assets/images/homeslider/criacao-site.png')) }}" alt="About Mockup 5">
             </div>
             <div class="col-md-12 col-sm-12 col-lg-5">
               <div class="about-desc6 w-100 mt-40">
@@ -92,7 +93,7 @@
               <span class="d-inline-block roadmap-label">
                 <i class="font-style-normal">04</i>
               </span>
-              <h5 class="mb-0">DEPLOY</h5>
+              <h5 class="mb-0">HOSPEDAGEM</h5>
             </div>
           </div><!-- Roadmap Wrap -->
         </div>
