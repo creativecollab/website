@@ -16,6 +16,12 @@
   font-size: 1.4rem;
   font-weight: 300;
 }
+.homeslider-cover {
+  width: 760px;
+  height: 560px;
+  max-width: 60%;
+  max-height: 60%;
+}
 
 body {
   font-family: "Exo 2", sans-serif;

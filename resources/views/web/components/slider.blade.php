@@ -6,9 +6,9 @@
     </div>
     <div class="wave wave-bottom-right">
       <img class="layer"  style="margin-bottom: 20px" src="{{ url(asset('web/assets/images/homeslider/bolinhas-inferior-direitos.png')) }}" alt="bottom-right2">
-
     </div>
   </div>
+
   <div class="w-100">
     <div id="rev_slider_4_1_wrapper"
          class="rev_slider_wrapper fullscreen-container"
@@ -38,12 +38,12 @@
                  data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]"
                  data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"
             >
-              <img style="margin-bottom: 200px;" src="{{ url(asset('web/assets/images/homeslider/criacao-site.png')) }}" alt="" />
+              <img class="homeslider-cover" style="margin-bottom: 200px;" src="{{ url(asset('web/assets/images/homeslider/criacao-site.png')) }}" alt="" />
             </div>
 
 
             <!-- SLIDER TITULO  -->
-            <div class="tp-caption tp-resizeme homeslider-content"
+            <div class="tp-caption tp-resizeme"
                  id="slide1-layer-4"
                  data-x="['left','center','center','center']" data-hoffset="['0','0','0','0']"
                  data-y="['middle','middle','middle','middle']"
@@ -65,7 +65,7 @@
             </div>
 
             <!-- SLIDER SUBTITULO-->
-            <div class="tp-caption homeslider-content "
+            <div class="tp-caption"
                  id="slide1-layer-5"
                  data-x="['left','center','center','center']" data-hoffset="['0','0','0','0']"
                  data-y="['middle','middle','middle','middle']" data-voffset="['40','40','40','30']"
@@ -155,7 +155,7 @@
                  data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]"
                  data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"
             >
-              <img style="margin-bottom: 200px;"
+              <img class="homeslider-cover" style="margin-bottom: 200px;"
                    src="{{ url(asset('web/assets/images/homeslider/gerenciamento-redes.png')) }}" alt="" />
             </div>
 
@@ -276,9 +276,8 @@
               <img style="margin-bottom: 200px;" src="{{ url(asset('web/assets/images/homeslider/fullcircle.png')) }}" alt="" />
             </div>
 
-
             <!-- SLIDER TITULO  -->
-            <div class="tp-caption tp-resizeme homeslider-content"
+            <div class="tp-caption tp-resizeme"
                  id="slide1-layer-4"
                  data-x="['left','center','center','center']" data-hoffset="['0','0','0','0']"
                  data-y="['middle','middle','middle','middle']"
