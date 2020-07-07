@@ -11,19 +11,14 @@
           type="image/png"/>
     <title>Creative Collab – Sua Agência Marketing Digital</title>
 
-    <link rel="stylesheet" href="{{ url(asset('web/assets/css/all.min.css')) }}">
+{{--    <link rel="stylesheet" href="{{ url(asset('web/assets/css/all.min.css')) }}">--}}
     <link rel="stylesheet" href="{{ url(asset('web/assets/css/flaticon.css')) }}">
-    <link rel="stylesheet" href="{{ url(asset('web/assets/css/animate.min.css')) }}">
-    <link rel="stylesheet" href="{{ url(asset('web/assets/css/bootstrap.min.css')) }}">
-    <link rel="stylesheet" href="{{ url(asset('web/assets/css/bootstrap-select.min.css')) }}">
-    <link rel="stylesheet" href="{{ url(asset('web/assets/css/owl.carousel.min.css')) }}">
-    <link rel="stylesheet" href="{{ url(asset('web/assets/css/jquery.fancybox.min.css')) }}">
-    <link rel="stylesheet" href="{{ url(asset('web/assets/css/perfect-scrollbar.css')) }}">
-    <link rel="stylesheet" href="{{ url(asset('web/assets/css/slick.css')) }}">
+
+    <link rel="stylesheet" href="{{ url(asset('web/assets/css/boot.css')) }}">
+    <link rel="stylesheet" href="{{ url(asset('web/assets/css/libs/plugins.css')) }}">
+  <link rel="stylesheet" href="{{ url(mix('web/assets/css/app.css')) }}">
     <link rel="stylesheet" href="{{ url(asset('web/assets/css/style.css')) }}">
-    <link rel="stylesheet" href="{{ url(asset('web/assets/css/responsive.css')) }}">
-    <link rel="stylesheet" href="{{ url(asset('web/assets/css/color.css')) }}">
-    <link rel="stylesheet" href="{{ url(mix('web/assets/css/app.css')) }}">
+
 
     <!-- REVOLUTION STYLE SHEETS -->
     <link rel="stylesheet" href="{{ url(asset('web/assets/css/revolution/settings.css')) }}">

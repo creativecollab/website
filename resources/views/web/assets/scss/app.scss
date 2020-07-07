@@ -1,7 +1,22 @@
-@charset "UTF-8";
+
 @import "variables";
 
+@import "addons/font-icons";
+@import "addons/font-icons-reset";
+@import "~bootstrap-select/sass/bootstrap-select";
+@import "addons/bootstrap-select-reset";
+
+//@import "theme/header";
+//@import "theme/footer";
+
+//@import "folds/list-properties";
+//@import "folds/optin";
+
+@import "pages/home";
 @import "pages/contact";
+//@import "pages/property";
+//@import "pages/filter";
+//@import "pages/contact";
 
 .creative-gradient {
   background: #c03c7f;

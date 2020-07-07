@@ -1,45 +1,47 @@
-@charset "UTF-8";
-
-@import '../variables';
-
-.homeslider{
-  background: rgb(231,54,113);
-  background: linear-gradient(0deg, rgba(231,54,113,1) 0%, rgba(130,39,81,1) 100%);
-
-  &-title{
-    font-family: $Exo;
-    color: #FFF;
-    font-size: 4.5rem;
-    font-weight: 800;
-    letter-spacing:0;
-  }
-
-  &-subtitle{
-    color: #FFF;
-    font-size: 1.4rem;
-    font-weight: 300;
-  }
-
-  &-cover{
-    width: 760px;
-    height: 560px;
-    max-width: 60%;
-    max-height: 60%;
-  }
-}
-
-.homeslider-card{
-  background-color: #DDDdd !important;
-}
+@import "variables";
 
 body{
   font-family: $Exo;
-  font-size: 1rem;
+  font-size: 1em;
   font-weight: 600;
   background: rgb(231,54,113);
   background: linear-gradient(0deg, rgba(231,54,113,1) 0%, rgba(130,39,81,1) 100%);
 }
 
+.homeslider{
+padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  .rev_slider{
+    height: 100vh !important;
+  }
+  .homeslider-content{
+
+    .homeslider-item{
+      .tp-caption {
+
+        img{
+          max-width: 801px;
+          max-height: 751px;
+          margin-bottom: 200px;
+        }
+
+        h2{
+          color: #FFF;
+          font-size: 80px;
+          font-family: $Exo;
+        }
+
+        p{
+          margin-top: 0;
+          padding-top: 0;
+          font-size: 1.2em;
+          color: #FFF;
+        }
+      }
+    }
+  }
+}
 /*============================================================================
 
 	TABLE OF CONTENTS

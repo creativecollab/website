@@ -14,8 +14,22 @@ const dev = 'resources/views/web/assets/';
 const web = 'public/web/assets/';
 
 mix
+  .sass(dev + 'scss/boot.scss', web +'css/boot.css')
   .sass(dev + 'scss/app.scss', web + 'css/app.css')
-  .sass(dev + 'scss/libs/style.scss', web + 'css/style.css')
+  .sass(dev + 'scss/style.scss', web + 'css/style.css')
+  .styles([
+    dev + 'css/all.css',
+    dev + 'css/flaticon.css',
+    dev + 'css/animate.min.css',
+    dev + 'css/jquery-fancybox.min.css',
+    dev + 'css/jquery-nao-calendar.css',
+    dev + 'css/jquery-pseudo-ripple.css',
+    dev + 'css/perfect-scrollbar.css',
+    dev + 'css/slick.css',
+    dev + 'css/responsive.css',
+
+  ], web + 'css/libs/plugins.css')
+
   // .styles([
   //   dev + 'css/flaticon.css',
   //   dev + 'css/animate.min.css',

@@ -1,38 +1,36 @@
 @import url(https://fonts.googleapis.com/css?family=Nunito:400,600,700&display=swap);@import url(https://fonts.googleapis.com/css?family=Rubik:400,500,700&display=swap);@import url(https://fonts.googleapis.com/css2?family=Exo+2:wght@300;500;700&display=swap);@charset "UTF-8";
 /*=== Google Fonts ===*/
-.homeslider {
-  background: #e73671;
-  background: linear-gradient(0deg, #e73671 0%, #822751 100%);
-}
-.homeslider-title {
-  font-family: "Exo 2", sans-serif;
-  color: #FFF;
-  font-size: 4.5rem;
-  font-weight: 800;
-  letter-spacing: 0;
-}
-.homeslider-subtitle {
-  color: #FFF;
-  font-size: 1.4rem;
-  font-weight: 300;
-}
-.homeslider-cover {
-  width: 760px;
-  height: 560px;
-  max-width: 60%;
-  max-height: 60%;
-}
-
-.homeslider-card {
-  background-color: #DDDdd !important;
-}
-
 body {
   font-family: "Exo 2", sans-serif;
-  font-size: 1rem;
+  font-size: 1em;
   font-weight: 600;
   background: #e73671;
   background: linear-gradient(0deg, #e73671 0%, #822751 100%);
+}
+
+.homeslider {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.homeslider .rev_slider {
+  height: 100vh !important;
+}
+.homeslider .homeslider-content .homeslider-item .tp-caption img {
+  max-width: 801px;
+  max-height: 751px;
+  margin-bottom: 200px;
+}
+.homeslider .homeslider-content .homeslider-item .tp-caption h2 {
+  color: #FFF;
+  font-size: 80px;
+  font-family: "Exo 2", sans-serif;
+}
+.homeslider .homeslider-content .homeslider-item .tp-caption p {
+  margin-top: 0;
+  padding-top: 0;
+  font-size: 1.2em;
+  color: #FFF;
 }
 
 /*============================================================================
