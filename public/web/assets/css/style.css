@@ -23,6 +23,10 @@
   max-height: 60%;
 }
 
+.homeslider-card {
+  background-color: #000000 !important;
+}
+
 body {
   font-family: "Exo 2", sans-serif;
   font-size: 1rem;
