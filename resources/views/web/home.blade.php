@@ -1,7 +1,7 @@
 @extends('web.layout.app')
 
 @section('content')
-  @include('web.components.slider')
+  @include('web.components.slide')
   <section style="background-color: #FFF;">
     <div class="w-100 pt-120 pb-120 position-relative mt-30">
       <div id="particles1" class="particles-js top-left" data-color="#ffe27a" data-saturation="300" data-size="40"

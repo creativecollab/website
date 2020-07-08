@@ -254,6 +254,7 @@
 <!-- Main Wrapper -->
 
 <script src="{{ url(asset('web/assets/js/jquery.min.js')) }}"></script>
+<script src="{{ url(asset('web/assets/js/slide.js')) }}"></script>
 <script src="{{ url(asset('web/assets/js/popper.min.js')) }}"></script>
 <script src="{{ url(asset('web/assets/js/bootstrap.min.js')) }}"></script>
 <script src="{{ url(asset('web/assets/js/bootstrap-select.min.js')) }}"></script>

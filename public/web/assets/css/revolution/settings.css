@@ -249,8 +249,7 @@ website:   	http://www.themepunch.com
 .group_ov_hidden {
   overflow: hidden;
 }
-.rev_slider img,
-.tp-simpleresponsive img {
+.rev_slider img, .tp-simpleresponsive img {
   max-width: none !important;
   transition: none;
   margin: 0;

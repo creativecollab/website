@@ -65,6 +65,7 @@ mix
   // ], web + 'js/plugins.js')
   //
   .scripts([dev +  'js/custom-scripts.js'], web + 'js/app.js')
+  .scripts([dev +  'js/slide.init.js'], web + 'js/slide.js')
 
 
 
